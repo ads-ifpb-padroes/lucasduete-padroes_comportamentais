@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) throws CoinNaoAceita {
+    public static void main(String[] args) throws CoinNaoAceita, DinheiroInsuficienteException {
 
         Slot slotChain = new Slot1Real();
         slotChain.setProximo(new Slot50());
@@ -19,32 +19,26 @@ public class Main {
 
         produto = scanner.nextInt();
 
-        System.out.println("Insira as moedas (Aceitas: 1.0 e 0.50, 0 para sair)");
+        System.out.println("Insira as moedas (Aceitas: 1,0 e 0,50; Coloque 0,0 para sair)");
 
-        Double moeda = -1.0;
-        do {
-
-            System.out.println("Insira uma moeda, 0 para sair");
-            moeda = scanner.nextDouble();
+        Double moeda = scanner.nextDouble();
+        while (moeda != 0.0) {
 
             slotChain.capturarCoin(moeda);
 
-        } while (moeda != 0);
-
-        Double total = slotChain.getTotalCapturado();
+            System.out.println("Insira outra moeda (0,0 para sair)");
+            moeda = scanner.nextDouble();
+        }
 
         switch (produto) {
             case 1:
-                if (total != 3.50) System.out.println("Valor insuficiente");
-                else System.out.println("Pegue sua bebida");
+                slotChain.pagar(3.5);
                 break;
             case 2:
-                if (total != 2.00) System.out.println("Valor insuficiente");
-                else System.out.println("Pegue seu Salgadinho");
+                slotChain.pagar(2.0);
                 break;
             case 3:
-                if (total != 1.00) System.out.println("Valor insuficiente");
-                else System.out.println("Pegue seu Chocolate");
+                slotChain.pagar(1.0);
                 break;
         }
 
