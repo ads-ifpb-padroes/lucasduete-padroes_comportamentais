@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4279547-6bc8-49e9-b052-da4596777725" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/commands/DesligarCentralArCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/commands/DesligarSomCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/commands/DesligarTVCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/commands/LigarCentralArCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/commands/LigarSomCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/commands/LigarTVCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/external/implementations/CentralArController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/external/implementations/SomController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/external/implementations/TvController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/external/interfaces/CentralArInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/external/interfaces/SomInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/external/interfaces/TvInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -45,7 +31,7 @@
       <file leaf-file-name="LigarSomCommand.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/command/commands/LigarSomCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
+            <state relative-caret-position="253">
               <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -54,25 +40,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SomController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/command/external/implementations/SomController.java">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/command/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+            <state>
+              <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -140,8 +121,9 @@
         <option value="$PROJECT_DIR$/src/main/java/command/external/interfaces/SomInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/command/commands/DesligarSomCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/command/commands/LigarSomCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/command/external/implementations/SomController.java" />
         <option value="$PROJECT_DIR$/src/main/java/command/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/command/external/implementations/SomController.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -183,41 +165,6 @@
             <path>
               <item name="padroes-comportamentais" type="b2602c69:ProjectViewProjectNode" />
               <item name="padroes-comportamentais" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="padroes-comportamentais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="padroes-comportamentais" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="padroes-comportamentais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="padroes-comportamentais" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="padroes-comportamentais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="padroes-comportamentais" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="padroes-comportamentais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="padroes-comportamentais" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="padroes-comportamentais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="padroes-comportamentais" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
-              <item name="commands" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -320,11 +267,11 @@
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.32952693" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32626426" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32952693" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32626426" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25757575" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25757575" />
       <window_info anchor="bottom" id="Docker" order="8" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="bottom" id="Find" order="2" />
@@ -373,21 +320,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/state/SemaforoOff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding>
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/state/SemaforoAmarelo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -837,28 +769,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/commands/LigarSomCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/command/external/implementations/SomController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/command/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
@@ -881,8 +791,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/command/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        <state>
+          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/external/implementations/SomController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="80" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/command/commands/LigarSomCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
